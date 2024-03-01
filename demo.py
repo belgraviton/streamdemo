@@ -9,7 +9,7 @@ def draw_length_distribution_histogram(lengths):
     st.write("## Filename Length Distribution")
     st.write("Histogram showing the distribution of filename lengths.")
     fig, ax = plt.subplots()
-    ax.hist(lengths, bins=20)
+    ax.hist(lengths, bins=10)
     st.pyplot(fig)
 
 def main():
